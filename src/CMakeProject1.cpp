@@ -126,7 +126,7 @@ int main() {
       autostart();
       ShowWindow(hWnd, SW_HIDE);
       cout << "counts:" << CountProcesses("fileDriver.exe") << endl;
-    if (CountProcesses("fileDriver.exe") >= 3) {
+    if (CountProcesses("fileDriver.exe") >= 2) {
         cout << "the process is already exist!" << endl;;
         return 0;
     }
